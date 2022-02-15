@@ -7,6 +7,11 @@
 body {
   background-color: #fff;
   color: var(--primary-text-colorvar(--title-text-color));
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
 }
 .list {
   list-style: none;
@@ -14,6 +19,12 @@ body {
 /* Site nav */
 .site-nav .link {
   color: #18a0fb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.button {
+  font-family: inherit;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
